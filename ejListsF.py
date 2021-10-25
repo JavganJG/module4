@@ -62,14 +62,14 @@ def option7():
                 es = True
             count += 1 
         if es == False:
-            value = "This number isn't in the list"
+            value = list2
         else:
             value = list2
     else:
-        value ="Any element in the list"
+        value =list2
     return value
 
-    
+  
 
 def menu():
     print("MENU")
